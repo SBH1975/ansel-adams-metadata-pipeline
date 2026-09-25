@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:marc="http://www.loc.gov/MARC21/slim"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           OBJID="ark:/13030/adams_tetons_snake_river"
+           TYPE="Photograph"
+           xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd
+                               http://purl.org/dc/elements/1.1/ https://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd
+                               http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <mets:metsHdr CREATEDATE="2026-09-24T12:00:00Z" RECORDSTATUS="Complete">
+    <mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL">
+      <mets:name>Adams, Ansel (Photographer)</mets:name>
+    </mets:agent>
+    <mets:agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
+      <mets:name>Digital Collections Repository</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+
+  <!-- Descriptive Metadata 1: Simple Dublin Core -->
+  <mets:dmdSec ID="DMD_DC_001">
+    <mets:mdWrap MDTYPE="DC" MIMETYPE="text/xml" LABEL="Simple Dublin Core Record">
+      <mets:xmlData>
+        <dc:title>The Tetons and the Snake River</dc:title>
+        <dc:creator>Ansel Adams</dc:creator>
+        <dc:subject>Teton Range; Snake River; Grand Teton National Park; Landscape photography; Mountains; Rivers</dc:subject>
+        <dc:description>Black and white landscape photograph showing the Snake River winding through forested valley towards the snow-capped Teton Range mountains in Grand Teton National Park, Wyoming.</dc:description>
+        <dc:publisher>U.S. National Archives and Records Administration; Wikimedia Commons</dc:publisher>
+        <dc:contributor>U.S. National Park Service</dc:contributor>
+        <dc:date>1942</dc:date>
+        <dc:type>Image</dc:type>
+        <dc:format>image/jpeg</dc:format>
+        <dc:identifier>https://commons.wikimedia.org/wiki/File:Adams_The_Tetons_and_the_Snake_River.jpg</dc:identifier>
+        <dc:source>U.S. National Archives and Records Administration, Records of the National Park Service</dc:source>
+        <dc:language>eng</dc:language>
+        <dc:relation>Ansel Adams Photographs of National Parks and Monuments, compiled 1941–1942</dc:relation>
+        <dc:coverage>Grand Teton National Park, Wyoming, United States (43°48'00"N, 110°31'12"W)</dc:coverage>
+        <dc:rights>Public domain in the United States (Work of the U.S. Federal Government)</dc:rights>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+
+  <!-- Descriptive Metadata 2: MARCXML (RDA / LCSH) -->
+  <mets:dmdSec ID="DMD_MARC_001">
+    <mets:mdWrap MDTYPE="MARC" MIMETYPE="text/xml" LABEL="Full MARC21 XML / RDA Record">
+      <mets:xmlData>
+        <marc:record type="Bibliographic">
+          <marc:leader>00000ckm a2200000 i 4500</marc:leader>
+          <marc:controlfield tag="007">kj bo-</marc:controlfield>
+          <marc:controlfield tag="008">260924s1942    wyunnng           kneng d</marc:controlfield>
+          <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">[Agency]</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="c">[Agency]</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Adams, Ansel,</marc:subfield>
+            <marc:subfield code="d">1902-1984,</marc:subfield>
+            <marc:subfield code="e">photographer.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="245" ind1="1" ind2="4">
+            <marc:subfield code="a">The Tetons and the Snake River /</marc:subfield>
+            <marc:subfield code="c">Ansel Adams.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1942.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">1 photograph :</marc:subfield>
+            <marc:subfield code="b">black and white ;</marc:subfield>
+            <marc:subfield code="c">[dimensions vary].</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">two-dimensional image</marc:subfield>
+            <marc:subfield code="b">sti</marc:subfield>
+            <marc:subfield code="2">rdacont</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdatarier</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Title from caption or National Archives inventory.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="520" ind1=" " ind2=" ">
+            <marc:subfield code="a">Broad landscape view of the Snake River winding through the valley floor with the snow-capped Grand Teton range in the background.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="536" ind1=" " ind2=" ">
+            <marc:subfield code="a">Created for the U.S. Department of the Interior / National Park Service mural project.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="540" ind1=" " ind2=" ">
+            <marc:subfield code="a">Public domain; work of the U.S. Federal Government.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Landscape photography</marc:subfield>
+            <marc:subfield code="z">Wyoming</marc:subfield>
+            <marc:subfield code="z">Grand Teton National Park.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Mountains</marc:subfield>
+            <marc:subfield code="z">Wyoming.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Snake River (Wyo.-Wash.)</marc:subfield>
+            <marc:subfield code="v">Pictorial works.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Teton Range (Wyo. and Idaho)</marc:subfield>
+            <marc:subfield code="v">Pictorial works.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Grand Teton National Park (Wyo.)</marc:subfield>
+            <marc:subfield code="v">Pictorial works.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="710" ind1="1" ind2=" ">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="b">National Park Service.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="710" ind1="1" ind2=" ">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="b">National Archives and Records Administration.</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="773" ind1="0" ind2=" ">
+            <marc:subfield code="t">Ansel Adams Photographs of National Parks and Monuments, compiled 1941–1942</marc:subfield>
+            <marc:subfield code="w">(NARA)519904</marc:subfield>
+          </marc:datafield>
+          <marc:datafield tag="856" ind1="4" ind2="0">
+            <marc:subfield code="u">https://commons.wikimedia.org/wiki/File:Adams_The_Tetons_and_the_Snake_River.jpg</marc:subfield>
+            <marc:subfield code="y">Image file on Wikimedia Commons</marc:subfield>
+          </marc:datafield>
+        </marc:record>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+
+  <!-- File Section: Archival Master & Web Derivative -->
+  <mets:fileSec>
+    <mets:fileGrp ID="GRP_MASTER_001" USE="MASTER">
+      <mets:file ID="FILE_MASTER_001" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-256" GROUPID="G1">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="masters/adams_tetons_snake_river_master.tif"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp ID="GRP_WEB_001" USE="WEB DERIVATIVE">
+      <mets:file ID="FILE_WEB_001" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-256" GROUPID="G1">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://upload.wikimedia.org/wikipedia/commons/2/21/Adams_The_Tetons_and_the_Snake_River.jpg"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+
+  <!-- Structural Map -->
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div DMDID="DMD_DC_001 DMD_MARC_001" TYPE="Photograph" LABEL="The Tetons and the Snake River">
+      <mets:div TYPE="Master" LABEL="Archival TIFF Master">
+        <mets:fptr FILEID="FILE_MASTER_001"/>
+      </mets:div>
+      <mets:div TYPE="Web Derivative" LABEL="Web Access JPEG">
+        <mets:fptr FILEID="FILE_WEB_001"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>
